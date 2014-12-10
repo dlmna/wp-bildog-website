@@ -65,6 +65,18 @@
 
             </div>
             <img class="featured-icon" />
+            <div id="page-title">
+                <h1>
+                    <?php
+                        if (is_home()) {
+                            echo "Blog";
+                        }
+                        else {
+                            echo get_the_title();
+                        }
+                    ?>
+                </h1>
+            </div>
         </div>
 
         <script type="text/javascript">
