@@ -71,6 +71,7 @@
                         if (is_home()) {
                             echo "Blog";
                         }
+                        else if (get_the_title() == "bildog") {}
                         else {
                             echo get_the_title();
                         }
