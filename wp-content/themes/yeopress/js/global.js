@@ -23,12 +23,6 @@ require(['jquery', 'bootstrap'], function($) {
 
     loadFeaturedIcon($);
     disableProjectsLink($);
-
-    var topDefault = parseInt($('#featured-image').css('top'), 10);
-    $(window).scroll(function () {
-        $('#featured-image').css({
-            'margin-top': topDefault + ($(this).scrollTop() / 2 ) + "px"
-        });
-    });
+    
 });
 
