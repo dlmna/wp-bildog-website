@@ -58,7 +58,7 @@ add_action( 'widgets_init', 'register_widgets' );
 //require_once('wp_bootstrap_navwalker.php');
 
 $defaults = array(
-    'default-image'          => get_bloginfo('template_url') . '/images/background.jpg',
+    'default-image'          => get_bloginfo('template_url') . '/images/bldg_bg_tile.png',
     'default-repeat'         => '',
     'default-position-x'     => '',
     'default-attachment'     => '',

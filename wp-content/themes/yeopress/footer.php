@@ -1,7 +1,7 @@
         <footer id="page-footer" class="main-column">
 
             <div class="row">
-                <div col-md-10>
+                <div class="col-md-11">
 
                     <div class="row">
                         <div class="col-md-4">
@@ -25,8 +25,19 @@
                     </div>
 
                 </div>
-                <div col-md-2>
-
+                <div class="col-md-1">
+                    <div class="row">
+                        <div class="col-md-12 icon-fb">
+                            <a href="https://de-de.facebook.com/bildung.ohnegrenzen">
+                                <img src="<?php echo bloginfo('template_directory') ?>/images/icon_fb.png" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 icon-yt">
+                            <img src="<?php echo bloginfo('template_directory') ?>/images/icon_yt.png" />
+                        </div>
+                    </div>
                 </div>
             </div>
 
